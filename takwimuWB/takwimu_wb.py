@@ -23,8 +23,9 @@ countries = {"Burkina Faso":"BF", "Congo, Dem. Rep.":"CD", "Ethiopia":"ET", "Ken
 country_code = list({v for (k,v) in countries.items()})
 
 
-# In[3]:
-
+def main():
+    save_to_csv()
+    process_to_sheet()
 
 def collect():
     # generate a dict from the indicators file
@@ -482,5 +483,5 @@ def process_to_sheet():
 
 if __name__ == '__main__':
     data = collect()
-    save_to_csv()
-    # process_to_sheet()
+    main()
+    
