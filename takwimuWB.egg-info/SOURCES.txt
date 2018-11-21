@@ -1,0 +1,6 @@
+README.md
+setup.py
+takwimuWB.egg-info/PKG-INFO
+takwimuWB.egg-info/SOURCES.txt
+takwimuWB.egg-info/dependency_links.txt
+takwimuWB.egg-info/top_level.txt
