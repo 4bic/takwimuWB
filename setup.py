@@ -1,7 +1,5 @@
 from setuptools import setup, find_packages
 from codecs import open
-from os import path
-
 
 here = path.abspath(path.dirname(__file__))
 
@@ -28,8 +26,7 @@ setup(
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     version=version,
-    description="The package access and structures World Bank data to Hurumap",
-    long_description=long_description,
+    description="Simplifying the the workflow of downloading World Bank SDG indicator data specific to Takwimu.",    long_description=long_description,
     long_description_content_type="text/markdown",
 
     # The project's main homepage.
