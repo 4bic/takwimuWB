@@ -2,10 +2,10 @@ Metadata-Version: 2.1
 Name: takwimuWB
 Version: 0.0.1
 Summary: The package access and structures World Bank data to Hurumap
-Home-page: https://github.com/4bic/WB_Data_Wrangling/blob/master/takwimu_wb.ipynb
+Home-page: https://github.com/4bic/takwimuWB
 Author: Robin Kiplangat
 Author-email: robyne.kiplangat@gmail.com
-License: UNKNOWN
+License: MIT
 Description: # takwimuWB
         
         This is a simple package that allows for downloading of indicator data specific to Takwimu.
@@ -14,7 +14,10 @@ Description: # takwimuWB
         to create visualizations on the go !
         
 Platform: UNKNOWN
-Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
 Description-Content-Type: text/markdown
