@@ -484,4 +484,3 @@ def process_to_sheet():
 if __name__ == '__main__':
     data = collect()
     main()
-    
